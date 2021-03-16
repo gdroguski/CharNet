@@ -1,0 +1,12 @@
+.idea/
+benchmark/
+_images/
+_results/
+build/
+charnet.egg-info/
+weights/
+*.pyd
+*.pkl
+*.pickle
+!**/__pycache__/
+*.py[cod]
