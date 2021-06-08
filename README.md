@@ -6,11 +6,10 @@ This project hosts the testing code for CharNet, described in paper:
     Linjie Xing, Zhi Tian, Weilin Huang, and Matthew R. Scott;
     In: Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2019.
 
-<<<<<<< HEAD
-I also added Fast Non Maximum Suppression algorithm written in C++ and exported to dll to replace current vanilla postprocess (speedup ~30x) and made some code refactoring and added possibility to apply specified preprocess from a config.
-=======
-Also I added Fast Non Maximum Suppression algorithm written in C++ and exported to dll to replace current vanilla postprocess (speedup ~30x) and made some code refactoring and added possibility to apply specified preprocess from config. The code for my Fast NMS is in other repo: [repo_link](https://github.com/gdroguski/FastNMS).
->>>>>>> d98a3a85628add7d5f6dc7139b8e293e0bf285c4
+I also added Fast Non-Maximum Suppression algorithm written in C++ and exported to dll to replace current vanilla postprocess (speedup ~30x) and made some code refactoring and added possibility to apply specified preprocess from a config.
+
+The code for my Fast NMS algorithm is in the other repo: [repo_link](https://github.com/gdroguski/FastNMS).
+
 
 ## How to
 
