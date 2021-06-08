@@ -6,7 +6,7 @@ This project hosts the testing code for CharNet, described in paper:
     Linjie Xing, Zhi Tian, Weilin Huang, and Matthew R. Scott;
     In: Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2019.
 
-Also I added Fast Non Maximum Suppression algorithm written in C++ and exported to dll to replace current vanilla postprocess (speedup ~30x) and made some code refactoring and added possibility to apply specified preprocess from config.
+I also added Fast Non Maximum Suppression algorithm written in C++ and exported to dll to replace current vanilla postprocess (speedup ~30x) and made some code refactoring and added possibility to apply specified preprocess from a config.
 
 ## How to
 
@@ -21,4 +21,4 @@ pip insall [torch, torchivsion]
     ```
     python predict.py configs/<some_config>.yaml <images_dir> <results_dir>
     ```
-2. If there is WinError for importing a module *.dll it means that you don't have the C++ runtime available, to do so install vcredist or set `USE_CPP` to `False` in conifg 
+2. If there is WinError for importing a module *.dll it means that you don't have the C++ runtime available, to do so install vcredist or set `USE_CPP` flag to `False` in config 
